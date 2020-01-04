@@ -1,6 +1,6 @@
 # ROS Programming
 
-To start a Gazebo simulation with TurtlBot3 type:
+To start a Gazebo simulation with TurtleBot3 type
 
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
