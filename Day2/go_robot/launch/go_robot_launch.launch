@@ -1,0 +1,4 @@
+<launch>
+   <node pkg="go_robot" type="simple_move.py" name="move_TB3" output="screen">
+   </node>
+</launch>
