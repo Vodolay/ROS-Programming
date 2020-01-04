@@ -26,7 +26,7 @@ class RobotControl():
         """
         This is because publishing in topics sometimes fails the first time you publish.
         In continuos publishing systems there is no big deal but in systems that publish only
-        once it IS very important.
+        once it is very important.
         """
         while not self.ctrl_c:
             connections = self.vel_publisher.get_num_connections()
