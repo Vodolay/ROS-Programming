@@ -6,7 +6,7 @@ from sensor_msgs.msg import LaserScan
 import time
 
 
-class RobotControl():
+class RobotControl(object):
 
     def __init__(self):
         rospy.init_node('robot_control_node', anonymous=True)
