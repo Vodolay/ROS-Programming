@@ -94,10 +94,10 @@ class PathFollower(object):
         cv2.waitKey(1)
         
         
-        error_x = cx - width / 2;
-        twist_object = Twist();
-        twist_object.linear.x = 0.1;
-        twist_object.angular.z = -error_x / 200;
+        error_x = cx - width / 2
+        twist_object = Twist()
+        twist_object.linear.x = 0.1
+        twist_object.angular.z = -error_x / 200
         rospy.loginfo("ANGULAR VALUE SENT===>"+str(twist_object.angular.z))
         # Make it start turning
         self.move_object.move_robot(twist_object)
