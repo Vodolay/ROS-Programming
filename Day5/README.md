@@ -12,5 +12,5 @@ To see the image from the camera
 
 **rqt_image_view**
 
-(https://github.com/atong01/Imagenet-Tensorflow/blob/master/model/imagenet_synset_to_human_label_map.txt "Image Net TF model categories")
+("Image Net TF model categories:" https://github.com/atong01/Imagenet-Tensorflow/blob/master/model/imagenet_synset_to_human_label_map.txt)
  
